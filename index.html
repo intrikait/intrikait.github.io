@@ -7,26 +7,626 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1265.21">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000ee}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; min-height: 14.0px}
-    p.p6 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier}
-    span.s1 {text-decoration: underline}
-    span.s2 {font: 12.0px 'Lucida Grande'}
-    span.s3 {text-decoration: underline ; color: #0000ee}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px Consolas; color: #333333}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; line-height: 18.0px; font: 12.0px Consolas; min-height: 14.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px Consolas; color: #63a35c}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px Consolas; color: #df5000}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 12.0px Consolas; color: #333333; min-height: 14.0px}
+    span.s1 {color: #333333}
+    span.s2 {color: #63a35c}
+    span.s3 {color: #795da3}
+    span.s4 {color: #df5000}
+    span.s5 {color: #0086b3}
+    span.s6 {color: #a71d5d}
+    table.t1 {background-color: #ffffff; border-collapse: collapse}
+    td.td1 {width: 119.0px; padding: 0.0px 10.0px 0.0px 10.0px}
+    td.td2 {width: 119.0px; min-width: 50.0px; border-style: solid; border-width: 0.0px 1.0px 0.0px 0.0px; border-color: #eeeeee #eeeeee #eeeeee #eeeeee; padding: 0.0px 10.0px 0.0px 10.0px}
+    td.td3 {width: 1005.0px; padding: 0.0px 10.0px 0.0px 10.0px}
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1"><a href="https://github.com/intrikait">View on GitHub</a></span></p>
-<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times"><b>Simplicity</b></h1>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; min-height: 23.0px"><b></b><br></h2>
-<p class="p4"><br></p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times"><b>in·tri·kait</b></h3>
-<p class="p6"><span class="s2">ˈ</span>intrəkət/ <i>adjective</i><br>
-very compli-kait-ed or detailed.</p>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times"><b>Contact Me</b></h3>
-<p class="p7">email: intrikait.me@gmail.com</p>
-<p class="p6">Projects by <a href="https://github.com/intrikait"><span class="s3">intrikait</span></a> can be found on <a href="https://github.com/intrikait"><span class="s3">GitHub</span></a></p>
-<p class="p6">Generated with <a href="http://pages.github.com/"><span class="s3">GitHub Pages</span></a> using Merlot</p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="top" class="td1">
+        <p class="p1">&lt;!DOCTYPE html&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1">&lt;</span>html<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">  </span>&lt;<span class="s2">head</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">    </span>&lt;<span class="s2">meta</span> <span class="s3">charset</span>=<span class="s4">'utf-8'</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">meta</span><span class="s1"> </span><span class="s3">http-equiv</span><span class="s1">=</span>"X-UA-Compatible"<span class="s1"> </span><span class="s3">content</span><span class="s1">=</span>"chrome=1"<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">meta</span><span class="s1"> </span><span class="s3">name</span><span class="s1">=</span>"viewport"<span class="s1"> </span><span class="s3">content</span><span class="s1">=</span>"width=640"<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">link</span><span class="s1"> </span><span class="s3">rel</span><span class="s1">=</span>"stylesheet"<span class="s1"> </span><span class="s3">href</span><span class="s1">=</span>"stylesheets/core.css"<span class="s1"> </span><span class="s3">media</span><span class="s1">=</span>"screen"<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">link</span><span class="s1"> </span><span class="s3">rel</span><span class="s1">=</span>"stylesheet"<span class="s1"> </span><span class="s3">href</span><span class="s1">=</span>"stylesheets/mobile.css"<span class="s1"> </span><span class="s3">media</span><span class="s1">=</span>"handheld, only screen and (max-device-width:640px)"<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">link</span><span class="s1"> </span><span class="s3">rel</span><span class="s1">=</span>"stylesheet"<span class="s1"> </span><span class="s3">href</span><span class="s1">=</span>"stylesheets/pygment_trac.css"<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">script</span><span class="s1"> </span><span class="s3">type</span><span class="s1">=</span>"text/javascript"<span class="s1"> </span><span class="s3">src</span><span class="s1">=</span>"javascripts/modernizr.js"<span class="s1">&gt;&lt;/</span><span class="s2">script</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">script</span><span class="s1"> </span><span class="s3">type</span><span class="s1">=</span>"text/javascript"<span class="s1"> </span><span class="s3">src</span><span class="s1">=</span>"https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"<span class="s1">&gt;&lt;/</span><span class="s2">script</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">script</span><span class="s1"> </span><span class="s3">type</span><span class="s1">=</span>"text/javascript"<span class="s1"> </span><span class="s3">src</span><span class="s1">=</span>"javascripts/headsmart.min.js"<span class="s1">&gt;&lt;/</span><span class="s2">script</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">script</span><span class="s1"> </span><span class="s3">type</span><span class="s1">=</span>"text/javascript"<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">      </span>$(<span class="s5">document</span>).ready(<span class="s6">function</span> () {</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">        </span>$(<span class="s4">'#main_content'</span>).headsmart()</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">      </span>})</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">    </span>&lt;/<span class="s2">script</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">    </span>&lt;<span class="s2">title</span>&gt;Simplicity by intrikait&lt;/<span class="s2">title</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">  </span>&lt;/<span class="s2">head</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">  </span>&lt;<span class="s2">body</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">a</span><span class="s1"> </span><span class="s3">id</span><span class="s1">=</span>"forkme_banner"<span class="s1"> </span><span class="s3">href</span><span class="s1">=</span>"https://github.com/intrikait"<span class="s1">&gt;View on GitHub&lt;/</span><span class="s2">a</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">    </span>&lt;<span class="s2">div</span> <span class="s3">class</span>=<span class="s4">"shell"</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">      </span>&lt;<span class="s2">header</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">span</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span>"ribbon-outer"<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">          </span>&lt;<span class="s2">span</span> <span class="s3">class</span>=<span class="s4">"ribbon-inner"</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">            </span>&lt;<span class="s2">h1</span>&gt;Simplicity&lt;/<span class="s2">h1</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">            </span>&lt;<span class="s2">h2</span>&gt;&lt;/<span class="s2">h2</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">          </span>&lt;/<span class="s2">span</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">          </span>&lt;<span class="s2">span</span> <span class="s3">class</span>=<span class="s4">"left-tail"</span>&gt;&lt;/<span class="s2">span</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">          </span>&lt;<span class="s2">span</span> <span class="s3">class</span>=<span class="s4">"right-tail"</span>&gt;&lt;/<span class="s2">span</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">        </span>&lt;/<span class="s2">span</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">      </span>&lt;/<span class="s2">header</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">div</span><span class="s1"> </span><span class="s3">id</span><span class="s1">=</span>"no-downloads"<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">        </span>&lt;<span class="s2">span</span> <span class="s3">class</span>=<span class="s4">"inner"</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">        </span>&lt;/<span class="s2">span</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">      </span>&lt;/<span class="s2">div</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">      </span>&lt;<span class="s2">span</span> <span class="s3">class</span>=<span class="s4">"banner-fix"</span>&gt;&lt;/<span class="s2">span</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">section</span><span class="s1"> </span><span class="s3">id</span><span class="s1">=</span>"main_content"<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">        </span>&lt;<span class="s2">h3</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1">&lt;</span><span class="s2">a</span><span class="s1"> </span><span class="s3">id</span><span class="s1">=</span>"intrikait"<span class="s1"> </span><span class="s3">class</span><span class="s1">=</span>"anchor"<span class="s1"> </span><span class="s3">href</span><span class="s1">=</span>"#intrikait"<span class="s1"> </span><span class="s3">aria-hidden</span><span class="s1">=</span>"true"<span class="s1">&gt;&lt;</span><span class="s2">span</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span>"octicon octicon-link"<span class="s1">&gt;&lt;/</span><span class="s2">span</span><span class="s1">&gt;&lt;/</span><span class="s2">a</span><span class="s1">&gt;in·tri·kait&lt;/</span><span class="s2">h3</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1">&lt;</span>blockquote<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1">&lt;<span class="s2">p</span>&gt;ˈintrəkət/ &lt;<span class="s2">em</span>&gt;adjective&lt;/<span class="s2">em</span>&gt;&lt;<span class="s2">br</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1">very compli-kait-ed or detailed.<span class="Apple-converted-space">  </span>&lt;/<span class="s2">p</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1">&lt;/</span>blockquote<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1">&lt;<span class="s2">h3</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1">&lt;</span><span class="s2">a</span><span class="s1"> </span><span class="s3">id</span><span class="s1">=</span>"contact-me"<span class="s1"> </span><span class="s3">class</span><span class="s1">=</span>"anchor"<span class="s1"> </span><span class="s3">href</span><span class="s1">=</span>"#contact-me"<span class="s1"> </span><span class="s3">aria-hidden</span><span class="s1">=</span>"true"<span class="s1">&gt;&lt;</span><span class="s2">span</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span>"octicon octicon-link"<span class="s1">&gt;&lt;/</span><span class="s2">span</span><span class="s1">&gt;&lt;/</span><span class="s2">a</span><span class="s1">&gt;Contact Me&lt;/</span><span class="s2">h3</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1">&lt;<span class="s2">pre</span>&gt;&lt;<span class="s2">code</span>&gt;email: intrikait.me@gmail.com</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1">&lt;/</span>code<span class="s1">&gt;&lt;/</span>pre<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">      </span>&lt;/<span class="s2">section</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">      </span>&lt;<span class="s2">footer</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">span</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span>"ribbon-outer"<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">          </span>&lt;<span class="s2">span</span> <span class="s3">class</span>=<span class="s4">"ribbon-inner"</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">            </span>&lt;<span class="s2">p</span>&gt;Projects by &lt;<span class="s2">a</span> <span class="s3">href</span>=<span class="s4">"https://github.com/intrikait"</span>&gt;intrikait&lt;/<span class="s2">a</span>&gt; can be found on &lt;<span class="s2">a</span> <span class="s3">href</span>=<span class="s4">"https://github.com/intrikait"</span>&gt;GitHub&lt;/<span class="s2">a</span>&gt;&lt;/<span class="s2">p</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">          </span>&lt;/<span class="s2">span</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">          </span>&lt;<span class="s2">span</span> <span class="s3">class</span>=<span class="s4">"left-tail"</span>&gt;&lt;/<span class="s2">span</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">          </span>&lt;<span class="s2">span</span> <span class="s3">class</span>=<span class="s4">"right-tail"</span>&gt;&lt;/<span class="s2">span</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">        </span>&lt;/<span class="s2">span</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">        </span>&lt;<span class="s2">p</span>&gt;Generated with &lt;<span class="s2">a</span> <span class="s3">href</span>=<span class="s4">"http://pages.github.com"</span>&gt;GitHub Pages&lt;/<span class="s2">a</span>&gt; using Merlot&lt;/<span class="s2">p</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">        </span>&lt;<span class="s2">span</span> <span class="s3">class</span>=<span class="s4">"octocat"</span>&gt;&lt;/<span class="s2">span</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">      </span>&lt;/<span class="s2">footer</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">    </span>&lt;/<span class="s2">div</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><br></p>
+        <p class="p5"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="Apple-converted-space">    </span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="Apple-converted-space">  </span>&lt;/<span class="s2">body</span>&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1">&lt;/</span>html<span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 </body>
 </html>
