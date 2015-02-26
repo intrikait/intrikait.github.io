@@ -74,11 +74,9 @@ a:hover {
 
 .btn-4:active {
   border-color: #17954c;
-  color: #17954c;
 }
 
 .btn-4:hover {
-  background: #24b662;
 }
 
 .btn-4:before {
@@ -93,49 +91,32 @@ a:hover {
 }
 
 .btn-4:active:before {
-  color: #17954c;
-}
-
-/* Button 4a */
-.btn-4a:before {
-  left: 130%;
-  top: 0;
-}
-
-.btn-4a:hover:before {
-  left: 80%;
-}
-
-/* Button 4b */
-.btn-4b:before {
-  left: -50%;
-  top: 0;
-}
-
-.btn-4b:hover:before {
-  left: 10%;
 }
 
 /* Button 4c */
 .btn-4c:before {
+  color: #0e83cd;
   left: 70%;
   opacity: 0;
   top: 0;
 }
 
 .btn-4c:hover:before {
+  color: #095b8f;
   left: 80%;
   opacity: 1;
 }
 
 /* Button 4d */
 .btn-4d:before {
+  color: #cb4e4e;
   left: 30%;
   opacity: 0;
   top: 0;
 }
 
 .btn-4d:hover:before {
+  color: #ab3c3c;
   left: 10%;
   opacity: 1;
 }
