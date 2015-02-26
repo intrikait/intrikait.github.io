@@ -64,45 +64,81 @@ a:hover {
   content: "\e003";
 }
 
-/* Button 4 */
-.btn-4 {
+/* Button 4c */
+.btn-4c {
   border-radius: 50px;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   color: #fff;
   overflow: hidden;
 }
 
-.btn-4:before {
-  position: absolute;
-  height: 100%;
-  font-size: 125%;
-  line-height: 3.5;
-  color: #fff;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+.btn-4c:active {
+  border-color: ##0e83cd;
+  color: #0e83cd;
 }
 
-/* Button 4c */
+.btn-4c:hover {
+  background: #095b8f;
+}
+
+.btn-4c:active:before {
+  color: #0e83cd;
+}
+
 .btn-4c:before {
   color: #0e83cd;
+  position: absolute;
+  height: 100%;
+  font-size: 100%;
+  line-height: 3.5;
   left: 70%;
   opacity: 0;
   top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .btn-4c:hover:before {
   color: #095b8f;
   left: 80%;
   opacity: 1;
+  top: 0;
 }
 
 /* Button 4d */
+.btn-4d {
+  border-radius: 50px;
+  border: 2px solid #fff;
+  color: #fff;
+  overflow: hidden;
+}
+
+.btn-4d:active {
+  border-color: #cb4e4e;
+  color: #cb4e4e;
+}
+
+.btn-4d:hover {
+  background: #ab3c3c;
+}
+
+.btn-4d:active:before {
+  color: #cb4e4e;
+}
+
 .btn-4d:before {
   color: #cb4e4e;
+  position: absolute;
+  height: 100%;
+  font-size: 100%;
+  line-height: 3.5;
   left: 30%;
   opacity: 0;
   top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .btn-4d:hover:before {
