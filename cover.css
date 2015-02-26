@@ -68,12 +68,12 @@ a:hover {
 .btn-4c {
   border-radius: 50px;
   border: 2px solid #fff;
-  color: #fff;
+  color: #0e83cd;
   overflow: hidden;
 }
 
 .btn-4c:active {
-  border-color: ##0e83cd;
+  border-color: #0e83cd;
   color: #0e83cd;
 }
 
@@ -110,7 +110,7 @@ a:hover {
 .btn-4d {
   border-radius: 50px;
   border: 2px solid #fff;
-  color: #fff;
+  color: #cb4e4e;
   overflow: hidden;
 }
 
