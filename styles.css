@@ -40,6 +40,9 @@ a:hover {
   padding: 30px;
 }
 
+.lead {
+	margin-top: 50%;
+}
 
 /*
  * Header
@@ -121,7 +124,7 @@ a:hover {
     top: 0;
   }
   .mastfoot {
-    position: fixed;
+    position: absolute;
     bottom: 0;
   }
   /* Start the vertical centering */
