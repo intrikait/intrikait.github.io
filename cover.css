@@ -1,7 +1,3 @@
-a:hover {
-  text-transform: none;
-}
-
 @font-face {
   font-family: 'icomoon';
   src:url('codrops/CreativeButtons/fonts/icomoon/icomoon.eot');
@@ -103,6 +99,11 @@ a:hover {
   transition: all 0.3s;
 }
 
+.btn-4c a:hover {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .btn-4c:hover:before {
   color: #095b8f;
   left: 80%;
@@ -151,6 +152,10 @@ a:hover {
   opacity: 1;
 }
 
+.btn-4d a:hover {
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
 /*
  * Base structure
