@@ -19,6 +19,25 @@ a:hover {
   border: 1px solid #fff;
 }
 
+/* Button 4d */
+.btn-4d {
+  border: 2px dashed #226fbe;
+}
+
+.btn-4d:hover {
+  background: transparent;
+  color: #226fbe;
+}
+
+/* Button 4d */
+.btn-4c {
+  border: 2px dashed #226fbe;
+}
+
+.btn-4c:hover {
+  background: transparent;
+  color: #226fbe;
+}
 
 /*
  * Base structure
