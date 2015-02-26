@@ -72,15 +72,6 @@ a:hover {
   overflow: hidden;
 }
 
-.btn-4:active {
-  border-color: #17954c;
-  color: #17954c;
-}
-
-.btn-4:hover {
-  background: #24b662;
-}
-
 .btn-4:before {
   position: absolute;
   height: 100%;
@@ -90,10 +81,6 @@ a:hover {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-}
-
-.btn-4:active:before {
-  color: #17954c;
 }
 
 /* Button 4c */
