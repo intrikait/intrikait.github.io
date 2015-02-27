@@ -119,7 +119,7 @@ a:hover {
   color: rgba(255,255,255,.5);
   position: absolute;
   bottom: 0;
-  height: 50px;
+  height: 30px;
 }
 
 
@@ -136,7 +136,7 @@ a:hover {
   .mastfoot {
     position: absolute;
     bottom: 0;
-    height: 50px;
+    height: 30px;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
@@ -224,7 +224,7 @@ nav a:hover {
 .cl-effect-18 a::before,
 .cl-effect-18 a::after {
 	position: absolute;
-	width: 100%;
+	width: 100px;
 	left: 0;
 	top: 50%;
 	height: 2px;
