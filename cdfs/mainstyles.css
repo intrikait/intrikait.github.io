@@ -14,7 +14,7 @@
   border: none;
   font-family: inherit;
   font-size: inherit;
-  color: inherit;
+  color: #333;
   background: none;
   cursor: pointer;
   padding: 25px 80px;
@@ -47,7 +47,7 @@
 
 .btn-6l:hover {
   background: transparent;
-  border-radius: 30px;
+  border-radius: 100px;
   color: #226fbe;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
