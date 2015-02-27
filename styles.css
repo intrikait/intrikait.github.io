@@ -136,7 +136,7 @@ a:hover {
   .mastfoot {
     position: absolute;
     bottom: 0;
-    height: 30px;
+    height: 50px;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
@@ -172,38 +172,10 @@ nav a {
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 1.35em;
-	width: 70px;
 }
 
 nav a:hover {
 	text-decoration: none;
-}
-
-.cl-effect-11 a {
-	padding: 10px 0;
-	border-top: 2px solid #0972b4;
-	color: #0972b4;
-	text-shadow: none;
-} 
-
-.cl-effect-11 a::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	overflow: hidden;
-	padding: 10px 0;
-	max-width: 0;
-	border-bottom: 2px solid #fff;
-	color: #fff;
-	content: attr(data-hover);
-	-webkit-transition: max-width 0.5s;
-	-moz-transition: max-width 0.5s;
-	transition: max-width 0.5s;
-}
-
-.cl-effect-11 a:hover::before,
-.cl-effect-11 a:focus::before {
-	max-width: 100%;
 }
 
 /* Effect 18: cross */
