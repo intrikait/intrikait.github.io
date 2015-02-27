@@ -224,7 +224,7 @@ nav a:hover {
 .cl-effect-18 a::before,
 .cl-effect-18 a::after {
 	position: absolute;
-	width: 500px;
+	width: 100%;
 	padding: 50px;
 	left: 0;
 	top: 50%;
