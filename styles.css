@@ -117,6 +117,9 @@ a:hover {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+  position: absolute;
+  bottom: 0;
+  height: 50px;
 }
 
 
