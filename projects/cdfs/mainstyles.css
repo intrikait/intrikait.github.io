@@ -14,7 +14,7 @@
   border: none;
   font-family: inherit;
   font-size: inherit;
-  color: #333;
+  color: inherit;
   background: none;
   cursor: pointer;
   padding: 25px 80px;
@@ -39,21 +39,6 @@
   transition: all 0.3s;
 }
 
-/* Button 6l */
-.btn-6l {
-  border: 4px double #226fbe;
-  border-radius: 60px;
-}
-
-.btn-6l:hover {
-  background: transparent;
-  border-radius: 100px;
-  color: #226fbe;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
 /* Links */
 a,
 a:focus,
@@ -71,6 +56,107 @@ a:hover {
   border: 1px solid #fff;
 }
 
+.icon-arrow-right:before {
+  content: "\e00d";
+}
+
+.icon-arrow-left:before {
+  content: "\e003";
+}
+
+/* Button 4c */
+.btn-4c {
+  border-radius: 50px;
+  border: 2px solid #fff;
+  color: #0e83cd;
+  overflow: hidden;
+}
+
+.btn-4c:active {
+  border-color: #0e83cd;
+  color: #0e83cd;
+}
+
+.btn-4c:hover {
+  background: #095b8f;
+}
+
+.btn-4c:active:before {
+  color: #0e83cd;
+}
+
+.btn-4c:before {
+  color: #0e83cd;
+  position: absolute;
+  height: 100%;
+  font-size: 100%;
+  line-height: 3.5;
+  left: 70%;
+  opacity: 0;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-4c a:hover {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-4c:hover:before {
+  color: #095b8f;
+  left: 80%;
+  opacity: 1;
+  top: 0;
+}
+
+/* Button 4d */
+.btn-4d {
+  border-radius: 50px;
+  border: 2px solid #fff;
+  color: #cb4e4e;
+  overflow: hidden;
+}
+
+.btn-4d:active {
+  border-color: #cb4e4e;
+  color: #cb4e4e;
+}
+
+.btn-4d:hover {
+  background: #ab3c3c;
+}
+
+.btn-4d:active:before {
+  color: #cb4e4e;
+}
+
+.btn-4d:before {
+  color: #cb4e4e;
+  position: absolute;
+  height: 100%;
+  font-size: 100%;
+  line-height: 3.5;
+  left: 30%;
+  opacity: 0;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-4d:hover:before {
+  color: #ab3c3c;
+  left: 10%;
+  opacity: 1;
+}
+
+.btn-4d a:hover {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 /*
  * Base structure
  */
@@ -78,7 +164,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #fff;
+  background-color: #333;
 }
 body {
   color: #fff;
@@ -136,7 +222,7 @@ body {
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #fff;
+  border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255,255,255,.25);
 }
 .masthead-nav > .active > a,
@@ -174,7 +260,7 @@ body {
  */
 
 .mastfoot {
-  color: #fff; /* IE8 proofing */
+  color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
 
