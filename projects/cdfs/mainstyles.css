@@ -9,7 +9,8 @@ body {
 
 /* img-circle */
 .img-circle {
-  border: double 1px;
+  border-style: double;
+  border-width: 1px;
 }
 
 .img-circle a {
