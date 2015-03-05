@@ -8,16 +8,16 @@ body {
 }
 
 /* img-circle */
-.img-circle {
-  border: dotted;
-}
-
 .img-circle a {
-
+  border: double 1px;
 }
 
-.img-circle:hover {
-
+.img-circle a:hover {
+  border-radius: 30px;
+  -webkit-transition-property: border-radius;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+  -webkit-transition-delay: 2s;
 }
 
 a:hover {
