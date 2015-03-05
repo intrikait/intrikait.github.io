@@ -68,7 +68,7 @@ a:hover {
     color: #000000; /*title color*/
     letter-spacing: -3px;
     margin-right: -10px;
-    margin-bottom: -10px;
+    margin-top: -10px;
     text-transform: uppercase;
     font-weight: 900;
 }
