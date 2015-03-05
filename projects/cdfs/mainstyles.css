@@ -10,7 +10,7 @@ body {
 /* img-circle */
 .img-circle {
   border-style: double;
-  border-width: 1px;
+  border-width: 5px;
 }
 
 .img-circle a {
