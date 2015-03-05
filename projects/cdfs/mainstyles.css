@@ -7,6 +7,17 @@ body {
   color: #5a5a5a;
 }
 
+.img-circle a {
+
+}
+
+.img-circle:hover {
+
+}
+
+a:hover {
+  text-decoration: none;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
