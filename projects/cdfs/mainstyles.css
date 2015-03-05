@@ -8,6 +8,10 @@ body {
 }
 
 /* img-circle */
+.img-circle {
+  border: double 1px;
+}
+
 .img-circle a {
   border: double 1px;
 }
