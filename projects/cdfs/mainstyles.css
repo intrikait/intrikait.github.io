@@ -13,7 +13,7 @@ body {
   border: double 4px;
 }
 
-.img-circle a:hover {
+a:.img-circle :hover {
   border-radius: 30px;
   -webkit-transition-property: border-radius;
   -webkit-transition-duration: 1s;
