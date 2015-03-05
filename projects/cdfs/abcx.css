@@ -121,7 +121,7 @@ a:hover {
 
 #abcxcomponent #bgletter {
     width: 300px;
-    height: 120px;
+    height: 300px;
     background: #ffffff; /*about section box one color*/
 }
 
@@ -135,7 +135,7 @@ a:hover {
 
 #abcxcomponent #smletter {
     width: 300px;
-    height: 120px;
+    height: 300px;
     background: #ffffff; /*about section box two color*/
     margin-top: 5px;
 }
