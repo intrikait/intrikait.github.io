@@ -116,12 +116,12 @@ a:hover {
     margin: 0 auto;
     width: 300px;
     height: auto;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 #abcxcomponent #bgletter {
     width: 300px;
-    height: 250px;
+    height: 200px;
     background: #ffffff; /*about section box one color*/
 }
 
@@ -135,7 +135,7 @@ a:hover {
 
 #abcxcomponent #smletter {
     width: 300px;
-    height: 250px;
+    height: 200px;
     background: #ffffff; /*about section box two color*/
     margin-top: 5px;
 }
