@@ -7,6 +7,11 @@ body {
   color: #5a5a5a;
 }
 
+/* img-circle */
+.img-circle {
+  border: dotted;
+}
+
 .img-circle a {
 
 }
