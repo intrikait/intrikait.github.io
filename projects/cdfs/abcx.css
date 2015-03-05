@@ -1,0 +1,456 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 10px; /*body font size*/
+    letter-spacing: -1px;
+    color: #909090; /*body font color*/
+    font-family: Maven Pro, sans-serif; /*body font face*/
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: #909090; /*link color*/
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+a:hover {
+    color: #e1e1e1; /*hover link color*/
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#header {
+    width: 100%;
+    height: 50px;
+    background: #ffffff; /*header background color*/
+    line-height: 50px;
+    box-shadow: 3px 3px 10px #e5e5e5;
+    text-align: center;
+    z-index: 1;
+    position: fixed;
+}
+
+#title {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #000000; /*header title color*/
+}
+
+#navigation {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#navigation a {
+    margin: 30px;
+    padding-bottom: 2px;
+    color: #909090; /*navigation link color*/
+    border-bottom: 1px dotted #ffffff; /*navigation link underline color*/
+}
+
+#navigation a:hover {
+    color: #e1e1e1; /*hover navigation link color*/
+    border-bottom: 1px dotted #e1e1e1; /*hover navigation link underline color*/
+    padding-bottom: 2px;
+}
+
+#section-one {
+    width: 25%;
+    height: 100%;
+    background: #f9f9f9; /*section one background color*/
+    position: fixed;
+}
+
+#section-one #unit {
+    color: #000000; /*section one title color*/
+    margin-top: 270px;
+    font-size: 150px;
+    line-height: 150px;
+    letter-spacing: -10px;
+    font-family: Arial Black;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent), center  url(http://i.imgur.com/TVTmu94.png); /*section one title background*/
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+}
+
+#hover-one {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    background: url(http://i.imgur.com/TVTmu94.png); /*hover section one background*/
+}
+
+#hover-one:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+}
+
+#about {
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    margin-top: 200px;
+}
+
+#about #title {
+    text-align: right;
+    font-size: 36px;
+    color: #000000; /*about title color*/
+    letter-spacing: -3px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#about #box-one {
+    width: 300px;
+    height: 120px;
+    background: #ffffff; /*about section box one color*/
+}
+
+#about #box-one img {
+    float: left;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin: 15px 10px 0px 15px;
+}
+
+#description {
+    float: left;
+    width: 170px;
+    margin-top: 10px;
+    height: 100px;
+    overflow: auto;
+    text-align: justify;
+    padding-right: 8px;
+}
+
+#about #box-two {
+    width: 300px;
+    height: 120px;
+    background: #ffffff; /*about section box two color*/
+    margin-top: 5px;
+}
+
+#about #box-two img {
+    float: left;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin: 15px 0px 0px 10px;
+}
+
+#currently {
+    float: left;
+    width: 170px;
+    margin: 10px 0px 0px 10px;
+    height: 100px;
+    overflow: auto;
+    text-align: justify;
+    padding-right: 8px;
+}
+
+#section-two {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    background: #f9f9f9; /*section two background color*/
+    border-left: 2px solid #ffffff;
+    margin-left: 25%;
+}
+
+#section-two #unit {
+    color: #000000; /*section two title color*/
+    margin-top: 270px;
+    font-size: 150px;
+    line-height: 150px;
+    letter-spacing: -10px;
+    font-family: Arial Black;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent), center  url(http://i.imgur.com/FAc9K5j.png); /*section two title background*/
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+}
+
+#hover-two {
+    width: 25%;
+    height: 100%;
+    margin-left: 25%;
+    position: fixed;
+    opacity: 0;
+    border-left: 2px solid #ffffff;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    background: url(http://i.imgur.com/FAc9K5j.png); /*hover section two background*/
+}
+
+#hover-two:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+}
+
+#links {
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    margin-top: 200px;
+}
+
+#links #title {
+    text-align: right;
+    font-size: 36px;
+    color: #000000; /*links title color*/
+    letter-spacing: -3px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#links #box {
+    width: 300px;
+    height: 245px;
+    overflow: auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 9px;
+}
+
+#links #box a {
+    display: inline-block;
+    width: 140px;
+    margin: 5px 5px 0px 0px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #ffffff; /*links background color*/
+    color: #909090; /*links font color*/
+}
+
+#links #box a:hover {
+    background: #909090; /*hover links background color*/
+    color: #ffffff; /*hover links font color*/
+}
+
+#section-three {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    background: #f9f9f9; /*section three background color*/
+    border-left: 2px solid #ffffff;
+    margin-left: 50%;
+}
+
+#section-three #unit {
+    color: #000000; /*section three title color*/
+    margin-top: 270px;
+    font-size: 150px;
+    line-height: 150px;
+    letter-spacing: -10px;
+    font-family: Arial Black;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent), center  url(http://i.imgur.com/2bPKRUx.png); /*section three title background*/
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+}
+
+#hover-three {
+    width: 25%;
+    height: 100%;
+    margin-left: 50%;
+    position: fixed;
+    opacity: 0;
+    border-left: 2px solid #ffffff;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    background: url(http://i.imgur.com/2bPKRUx.png); /*hover section three background*/
+}
+
+#hover-three:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+}
+
+#tags {
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    margin-top: 200px;
+}
+
+#tags #title {
+    text-align: right;
+    font-size: 36px;
+    color: #000000; /*tags title color*/
+    letter-spacing: -3px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#tags #box {
+    width: 300px;
+    height: 245px;
+    overflow: auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 9px;
+}
+
+#section {
+    width: 290px;
+    height: 100px;
+}
+
+#group {
+    width: 280px;
+    height: 60px;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    line-height: 60px;
+    background: #909090; /*tags group background color*/
+    color: #ffffff; /*tags group font color*/
+    padding-left: 10px;
+}
+
+#names {
+    width: 270px;
+    height: auto;
+    padding: 10px;
+    background: #ffffff; /*tags name background color*/
+    overflow: auto;
+}
+
+#section-four {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    background: #f9f9f9; /*section four background color*/
+    border-left: 2px solid #ffffff;
+    margin-left: 75%;
+}
+
+#section-four #unit {
+    color: #000000; /*section four title color*/
+    margin-top: 270px;
+    font-size: 150px;
+    line-height: 150px;
+    letter-spacing: -10px;
+    font-family: Arial Black;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent), center  url(http://i.imgur.com/BBsqMDR.png); /*section four title background*/
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+}
+
+#hover-four {
+    width: 25%;
+    height: 100%;
+    margin-left: 75%;
+    position: fixed;
+    opacity: 0;
+    border-left: 2px solid #ffffff;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    background: url(http://i.imgur.com/BBsqMDR.png); /*hover section four background*/
+}
+
+#hover-four:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+}
+
+#blogroll {
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    margin-top: 200px;
+}
+
+#blogroll #title {
+    text-align: right;
+    font-size: 36px;
+    color: white;
+    letter-spacing: -3px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#blogroll #box {
+    width: 300px;
+    height: 245px;
+    overflow: auto;
+}
+
+#follower img {
+    border-radius: 100%;
+    border: 5px solid #ffffff; /*blogroll icons border color*/
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 3px;
+}
+           
+::-webkit-scrollbar {
+    height: 10px;
+    width: 2px;
+    background: #ffffff;
+}
+           
+::-webkit-scrollbar-thumb:vertical {
+    background: #909090; /*scrollbar color*/
+}
+ 
+::selection {
+    background: #e1e1e1; /*selection color*/
+    color: white;
+}
+           
+::-moz-selection {
+    background: #e1e1e1; /*selection color*/
+    color: white;
+}
+ 
+p::selection {
+    background: #e1e1e1; /*selection color*/
+    color: white;
+}
+           
+p::-moz-selection {
+    background: #e1e1e1; /*selection color*/
+    color: white;
+}
