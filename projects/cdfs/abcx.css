@@ -101,14 +101,14 @@ a:hover {
     opacity: 1;
 }
 
-#about {
+#abcxcomponent {
     margin: 0 auto;
     width: 300px;
     height: auto;
     margin-top: 200px;
 }
 
-#about #title {
+#abcxcomponent #title {
     text-align: right;
     font-size: 36px;
     color: #000000; /*about title color*/
@@ -119,13 +119,13 @@ a:hover {
     font-weight: 900;
 }
 
-#about #box-one {
+#abcxcomponent #bgletter {
     width: 300px;
     height: 120px;
     background: #ffffff; /*about section box one color*/
 }
 
-#about #box-one img {
+#abcxcomponent #bgletter img {
     float: left;
     border-radius: 100%;
     width: 90px;
@@ -133,24 +133,14 @@ a:hover {
     margin: 15px 10px 0px 15px;
 }
 
-#description {
-    float: left;
-    width: 170px;
-    margin-top: 10px;
-    height: 100px;
-    overflow: auto;
-    text-align: justify;
-    padding-right: 8px;
-}
-
-#about #box-two {
+#abcxcomponent #smletter {
     width: 300px;
     height: 120px;
     background: #ffffff; /*about section box two color*/
     margin-top: 5px;
 }
 
-#about #box-two img {
+#abcxcomponent #smletter img {
     float: left;
     border-radius: 100%;
     width: 90px;
@@ -158,11 +148,11 @@ a:hover {
     margin: 15px 0px 0px 10px;
 }
 
-#currently {
+#innercontent {
     float: left;
     width: 170px;
     margin: 10px 0px 0px 10px;
-    height: 100px;
+    height: 300px;
     overflow: auto;
     text-align: justify;
     padding-right: 8px;
