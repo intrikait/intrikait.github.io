@@ -62,6 +62,17 @@ a:hover {
     padding-bottom: 2px;
 }
 
+#title {
+    text-align: right;
+    font-size: 36px;
+    color: #000000; /*title color*/
+    letter-spacing: -3px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
 #section-one {
     width: 25%;
     height: 100%;
@@ -108,20 +119,9 @@ a:hover {
     margin-top: 200px;
 }
 
-#abcxcomponent #title {
-    text-align: right;
-    font-size: 36px;
-    color: #000000; /*about title color*/
-    letter-spacing: -3px;
-    margin-right: -10px;
-    margin-bottom: -10px;
-    text-transform: uppercase;
-    font-weight: 900;
-}
-
 #abcxcomponent #bgletter {
     width: 300px;
-    height: 300px;
+    height: 250px;
     background: #ffffff; /*about section box one color*/
 }
 
@@ -135,7 +135,7 @@ a:hover {
 
 #abcxcomponent #smletter {
     width: 300px;
-    height: 300px;
+    height: 250px;
     background: #ffffff; /*about section box two color*/
     margin-top: 5px;
 }
@@ -145,14 +145,14 @@ a:hover {
     border-radius: 100%;
     width: 90px;
     height: 90px;
-    margin: 15px 0px 0px 10px;
+    margin: 0px 0px 0px 15px;
 }
 
 #innercontent {
     float: left;
     width: 170px;
     margin: 10px 0px 0px 10px;
-    height: 300px;
+    height: 250px;
     overflow: auto;
     text-align: justify;
     padding-right: 8px;
@@ -380,39 +380,6 @@ a:hover {
     -moz-transition: all 1s ease;
     transition: all 1s ease;
     opacity: 1;
-}
-
-#blogroll {
-    margin: 0 auto;
-    width: 300px;
-    height: auto;
-    margin-top: 200px;
-}
-
-#blogroll #title {
-    text-align: right;
-    font-size: 36px;
-    color: white;
-    letter-spacing: -3px;
-    margin-right: -10px;
-    margin-bottom: -10px;
-    text-transform: uppercase;
-    font-weight: 900;
-}
-
-#blogroll #box {
-    width: 300px;
-    height: 245px;
-    overflow: auto;
-}
-
-#follower img {
-    border-radius: 100%;
-    border: 5px solid #ffffff; /*blogroll icons border color*/
-    width: 55px;
-    height: 55px;
-    float: left;
-    margin: 3px;
 }
            
 ::-webkit-scrollbar {
