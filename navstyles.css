@@ -17,6 +17,13 @@ body {
 	width: 200px;
 	height: 200px;
 	border: double 5px;
-	border-top-left-radius: 100px;
+	border-top-left-radius: 50px;
 	border-bottom-right-radius: 25px;
+}
+
+.col-sm-6 p {
+	text-align: center;
+	padding: 15px;
+	width: 150px;
+	height: 150px;
 }
