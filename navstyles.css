@@ -12,6 +12,10 @@ body {
 	
 }
 
+.col-sm-6 {
+	width: 25%;
+}
+
 .col-sm-6 p {
 	text-align: center;
 	padding: 15px;
