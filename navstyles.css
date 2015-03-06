@@ -28,7 +28,7 @@ body {
 	width: 200px;
 	height: 200px;
 	margin: 15px;
-	border: double 5px;
+	border: solid 2px;
 	border-top-left-radius: 50px;
 	border-bottom-right-radius: 25px;
 }
@@ -38,7 +38,7 @@ body {
 	width: 200px;
 	height: 200px;
 	margin: 15px;
-	border: double 5px;
+	border: solid 2px;
 	border-top-right-radius: 50px;
 	border-bottom-left-radius: 25px;
 }
@@ -48,7 +48,7 @@ body {
 	width: 200px;
 	height: 200px;
 	margin: 15px;
-	border: double 5px;
+	border: solid 2px;
 	border-bottom-left-radius: 50px;
 	border-top-right-radius: 25px;
 }
@@ -58,7 +58,7 @@ body {
 	width: 200px;
 	height: 200px;
 	margin: 15px;
-	border: double 5px;
+	border: solid 2px;
 	border-bottom-right-radius: 50px;
 	border-top-left-radius: 25px;
 }
