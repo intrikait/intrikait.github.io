@@ -281,6 +281,7 @@ figure.effect-dexter {
 }
 
 figure.effect-dexter img {
+  height: 300px;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
@@ -341,7 +342,7 @@ figure.effect-layla {
 }
 
 figure.effect-layla img {
-  height: 390px;
+  height: 300px;
 }
 
 figure.effect-layla figcaption {
