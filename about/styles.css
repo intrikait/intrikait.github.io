@@ -20,9 +20,8 @@ a:hover {
 
 .col-sm-4 {
   border-radius: 20px;
-  border-style: solid 1px #ffffff;
+  border: 1px solid #ffffff;
   padding: 10px;
-  
   width: 30%;
   height: 50%;
 }
