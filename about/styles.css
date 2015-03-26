@@ -18,6 +18,15 @@ a:hover {
 	text-decoration: none;
 }
 
+.col-sm-4 {
+  border-radius: 20px;
+  border-style: solid 1px #ffffff;
+  padding: 10px;
+  
+  width: 30%;
+  height: 50%;
+}
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
