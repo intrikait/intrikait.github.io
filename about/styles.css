@@ -443,6 +443,16 @@ figure.effect-layla:hover img {
 /***** Marley *****/
 /*---------------*/
 
+figure.effect-marley {
+  background: #a52a2a;
+}
+
+figure.effect-marley img {
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  height: 300px;
+}
+
 figure.effect-marley figcaption {
   text-align: right;
 }
