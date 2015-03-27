@@ -198,7 +198,7 @@ nav a:hover {
 
 /* Common style */
 .grid figure {
-  position: relative;
+  position: absolute;
   overflow: hidden;
   margin: 10px 1%;
   min-width: 250px;
