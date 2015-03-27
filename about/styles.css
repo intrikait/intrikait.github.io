@@ -521,7 +521,6 @@ figure.effect-milo {
 
 figure.effect-milo img {
   max-width: none;
-  width: -webkit-calc(100% + 60px);
   height: 300px;
   opacity: 1;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
