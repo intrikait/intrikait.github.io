@@ -201,8 +201,8 @@ nav a:hover {
   position: relative;
   overflow: hidden;
   margin: 10px 1%;
-  min-width: 320px;
-  max-width: 480px;
+  min-width: 400px;
+  max-width: 400px;
   max-height: 360px;
   width: 30%;
   background: #3085a3;
@@ -449,7 +449,8 @@ figure.effect-marley {
 figure.effect-marley img {
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
-  height: 300px;
+  display: block;
+  height: 100%;
 }
 
 figure.effect-marley figcaption {
@@ -520,7 +521,6 @@ figure.effect-milo {
 }
 
 figure.effect-milo img {
-  max-width: none;
   height: 300px;
   opacity: 1;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
