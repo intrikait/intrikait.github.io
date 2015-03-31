@@ -338,6 +338,7 @@ figure.effect-top-left:hover p {
 /*---------------*/
 
 figure.effect-top-mid {
+  background: #333;
   border: 1px solid #ffffff;
 }
 
