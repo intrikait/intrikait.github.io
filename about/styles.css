@@ -339,9 +339,9 @@ figure.effect-layla {
 }
 
 figure.effect-layla img {
+  height: 300px;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
-  height: 300px;
 }
 
 figure.effect-layla figcaption {
@@ -446,9 +446,9 @@ figure.effect-marley {
 }
 
 figure.effect-marley img {
+  height: 300px;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
-  height: 300px;
 }
 
 figure.effect-marley figcaption {
