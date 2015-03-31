@@ -205,6 +205,7 @@ nav a:hover {
   margin: 10px 1%;
   min-width: 360px;
   max-width: 400px;
+  height: 300px;
   width: 33%;
   background: #3085a3;
   text-align: center;
@@ -276,7 +277,7 @@ nav a:hover {
 /*---------------*/
 
 figure.effect-top-left {
-  background: #41b2cd; 
+  background: #41b2cd;
 }
 
 figure.effect-top-left img {
