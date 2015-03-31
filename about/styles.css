@@ -523,7 +523,7 @@ figure.effect-goliath {
 
 figure.effect-goliath img,
 figure.effect-goliath h2 {
-  width: 300px;
+  height: 300px;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
 }
@@ -646,7 +646,7 @@ figure.effect-hera {
 }
 
 figure.effect-hera img {
-  width: 300px;
+  height: 300px;
 }
 
 figure.effect-hera h2 {
