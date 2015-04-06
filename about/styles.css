@@ -189,7 +189,7 @@ nav a:hover {
 
 .grid {
   position: relative;
-  display: inline-block;
+  display: inline;
   margin: 0 auto;
   padding: 1em 0 4em;
   max-width: 1200px;
