@@ -89,6 +89,29 @@ a:hover {
   width: auto;
 }
 
+/* JUMBOTRON SETTINGS
+-------------------------------------------------- */
+.jumbotron {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+.jumbotron-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.jumbotron .item {
+  height: 500px;
+  background-color: #777;
+}
+.jumbotron-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
