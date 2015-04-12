@@ -136,8 +136,7 @@ a:hover {
 }
 
 #abcxcomponent #letterbox p {
-    float: left;
-    padding: 5px;
+    margin: 10px;
     font-size: 2em;
     overflow: auto;
 }
