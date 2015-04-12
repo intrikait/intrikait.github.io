@@ -137,14 +137,14 @@ a:hover {
 #abcxcomponent #letterbox p {
     padding: 15px 10px 15px 10px;
     font-size: 2em;
-    height: 250px;
+    height: 200px;
     overflow: auto;
 }
 
 #abcxcomponent #letterbox ul li {
     padding: 15px 10px 15px 10px;
     font-size: 2em;
-    height: 250px;
+    height: 200px;
     overflow: auto;
 }
 
