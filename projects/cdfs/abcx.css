@@ -148,13 +148,12 @@ a:hover {
 
 #innercontent {
     float: left;
-    width: 170px;
-    margin: 10px 0px 0px 10px;
+    width: 100%;
+    margin: 10px 0px 0px 3px;
     height: 200px;
     font-size: 2em;
     overflow: auto;
-    text-align: justify;
-    padding-right: 8px;
+    padding-right: 2px;
 }
 
 #section-two {
