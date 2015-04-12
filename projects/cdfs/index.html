@@ -1,35 +1,97 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Password Protected Script -->
-    <SCRIPT>
-      function passwordAuthentication() {
-        var test = 1;
-        var pass = prompt('Please Enter Your Password','');
-        
-        while (test < 3) {
-          if (!pass) 
-            history.go(-1);
-          if (pass.toLowerCase() == "cdfs319") {
-            window.open('illness.html');
-            break;
-          } 
-          test += 1;
-          var pass = prompt('Access Denied.');
-        }
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../images/favicon.png">
 
-        if (pass.toLowerCase() != "password" && test == 3) 
-          history.go(-1);
-        return " ";
-      } 
-    </SCRIPT>
-    <CENTER>
-      <FORM>
-        <input type="button" value="Enter Protected Area" onClick="passWord()">
-      </FORM>
-    </CENTER>
+    <title>CDFS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="mainstyles.css" rel="stylesheet">
   </head>
-  <body></body>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="header">
+          <span id="title">Families &amp; Illness</span>
+      </div>
+    </div>
+
+    <!-- Jumbotron
+    ================================================== -->
+    <div class="jumbotron">
+      <div class="jumbotron-inner">
+        <div class="item">
+          <!--INSERT VIDEO HERE-->
+          <div class="container">
+            <div class="jumbotron-caption">
+              <h1>video to be displayed here</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <a href="disability.html">
+            <img class="img-circle" src="disabled.jpg" style="width: 150px; height: 150px;">
+            <h2>Physical Disability</h2>
+          </a>
+          <p>A physical impairment which has a substantial and long term effect on one's ability to carry out day-to-day activities.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <a href="disease.html">
+            <img class="img-circle" src="chronic.jpg" style="width: 150px; height: 150px;">
+            <h2>Chronic Disease</h2>
+          </a>
+          <p>A disease or condition lasting more than 3 months.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <a href="mental.html">
+            <img class="img-circle" src="mental.jpg" style="width: 150px; height: 150px;">
+            <h2>Mental Illness</h2>
+          </a>
+          <p>A disorder that physically affects the mind and influences mood, thinking, and behavior.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2015 &middot; Kaitryn Fredeluces</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../../bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
