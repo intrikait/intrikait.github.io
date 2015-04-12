@@ -457,6 +457,8 @@ figure.effect-milo:hover p {
 /*---------------*/
 
 figure.effect-dexter {
+  background-image: url('../shattered.png');
+  background-repeat: repeat;
 }
 
 figure.effect-dexter img {
