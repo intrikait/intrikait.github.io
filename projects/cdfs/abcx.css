@@ -73,6 +73,33 @@ a:hover {
     font-weight: 900;
 }
 
+#abcxcomponent {
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+}
+
+#abcxcomponent #letterbox {
+    width: 300px;
+    height: 250px;
+    background: #ffffff; /*about section box one color*/
+    margin-top: 5px;
+}
+
+#abcxcomponent #letterbox h1 {
+    float: left;
+    font-size: 7em;
+    margin: 15px 10px 0px 15px;
+}
+
+#abcxcomponent #letterbox p {
+    padding: 15px 10px 15px 10px;
+    font-size: 2em;
+    height: 200px;
+    overflow: auto;
+}
+
 #section-one {
     width: 25%;
     height: 100%;
@@ -112,40 +139,6 @@ a:hover {
     -moz-transition: all 1s ease;
     transition: all 1s ease;
     opacity: 1;
-}
-
-#abcxcomponent {
-    margin: 0 auto;
-    width: 300px;
-    height: auto;
-    margin-top: 100px;
-}
-
-#abcxcomponent #letterbox {
-    width: 300px;
-    height: 250px;
-    background: #ffffff; /*about section box one color*/
-    margin-top: 5px;
-}
-
-#abcxcomponent #letterbox h1 {
-    float: left;
-    font-size: 7em;
-    margin: 15px 10px 0px 15px;
-}
-
-#abcxcomponent #letterbox p {
-    padding: 15px 10px 15px 10px;
-    font-size: 2em;
-    height: 200px;
-    overflow: auto;
-}
-
-#abcxcomponent #letterbox ul li {
-    padding: 15px 10px 15px 10px;
-    font-size: 2em;
-    height: 200px;
-    overflow: auto;
 }
 
 #section-two {
