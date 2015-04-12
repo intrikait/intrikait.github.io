@@ -136,9 +136,6 @@ a:hover {
 
 #abcxcomponent #letterbox p {
     float: left;
-    background: #ffffff;
-    width: 300px;
-    height: 200px;
     margin: 3px 0px 0px 3px;
     font-size: 2em;
     overflow: auto;
