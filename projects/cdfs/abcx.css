@@ -129,7 +129,7 @@ a:hover {
 
 #abcxcomponent #bgletter h1 {
     float: left;
-    font-size: 2em;
+    font-size: 6em;
     margin: 15px 10px 0px 15px;
 }
 
@@ -142,9 +142,7 @@ a:hover {
 
 #abcxcomponent #smletter h1 {
     float: left;
-    border-radius: 100%;
-    width: 90px;
-    height: 90px;
+    font-size: 6em;
     margin: 0px 0px 0px 15px;
 }
 
@@ -153,6 +151,7 @@ a:hover {
     width: 170px;
     margin: 10px 0px 0px 10px;
     height: 200px;
+    font-size: 2em;
     overflow: auto;
     text-align: justify;
     padding-right: 8px;
