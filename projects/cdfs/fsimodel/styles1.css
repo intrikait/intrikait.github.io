@@ -370,6 +370,7 @@ figure.effect-ruby:hover img {
 }
 
 figure.effect-ruby h2 {
+  color: #777777;
   margin-top: 20%;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -381,6 +382,7 @@ figure.effect-ruby p {
   margin: 1em 0 0;
   padding: 3em;
   border: 1px solid #fff;
+  color: #777777;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
@@ -438,7 +440,6 @@ figure.effect-milo p {
   padding: 0 10px 0 0;
   width: 50%;
   border-right: 1px solid #fff;
-  color: #777777;
   text-align: right;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -495,6 +496,10 @@ figure.effect-dexter:hover figcaption::after {
 figure.effect-dexter figcaption {
   padding: 3em;
   text-align: left;
+}
+
+figure.effect-dexter h2 {
+  color: #777777;
 }
 
 figure.effect-dexter p {
