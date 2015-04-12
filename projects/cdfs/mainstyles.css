@@ -97,7 +97,8 @@ a:hover {
 }
 
 .jumbotron-caption {
-  z-index: 10;
+  z-index: 999;
+  margin-top: 200px;
 }
 
 /* Declare heights because of positioning of img element */
