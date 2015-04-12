@@ -438,6 +438,7 @@ figure.effect-milo p {
   padding: 0 10px 0 0;
   width: 50%;
   border-right: 1px solid #fff;
+  color: #777777;
   text-align: right;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -498,6 +499,7 @@ figure.effect-dexter figcaption {
 
 figure.effect-dexter p {
   position: absolute;
+  color: #777777;
   right: 60px;
   bottom: 60px;
   left: 60px;
