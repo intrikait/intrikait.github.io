@@ -271,11 +271,13 @@ nav a:hover {
 
 figure.effect-bubba {
   background: #9e5406;
+  background-image: url('../images/grey_wash_wall.png');
+  background-repeat: repeat;
 }
 
 figure.effect-bubba img {
   opacity: 0.7;
-  background-repeat: repeat;
+  height: 500px;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
@@ -348,10 +350,13 @@ figure.effect-bubba:hover p {
 
 figure.effect-ruby {
   background-color: #17819c;
+  background-image: url('../images/norwegian_rose.png');
+  background-repeat: repeat;
 }
 
 figure.effect-ruby img {
   opacity: 0.7;
+  height: 500px;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: scale(1.15);
