@@ -137,14 +137,14 @@ a:hover {
 #abcxcomponent #letterbox p {
     margin: 10px;
     font-size: 2em;
-    overflow: auto;
+    overflow: scroll;
 }
 
 #abcxcomponent #letterbox ul li {
     float: left;
     padding: 5px;
     font-size: 2em;
-    overflow: auto;
+    overflow: scroll;
 }
 
 #section-two {
