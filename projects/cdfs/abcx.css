@@ -82,7 +82,7 @@ a:hover {
 
 #abcxcomponent #letterbox {
     width: 300px;
-    height: 250px;
+    height: 200px;
     background: #ffffff; /*about section box one color*/
     margin-top: 5px;
 }
@@ -96,7 +96,7 @@ a:hover {
 #abcxcomponent #letterbox p {
     padding: 15px 10px 15px 10px;
     font-size: 2em;
-    height: 200px;
+    height: 1500px;
     overflow: auto;
 }
 
