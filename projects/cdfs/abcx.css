@@ -140,7 +140,7 @@ a:hover {
     overflow: auto;
 }
 
-#abcxcomponent #letterbox p ul li {
+#abcxcomponent #letterbox ul li {
     float: left;
     padding: 5px;
     font-size: 2em;
