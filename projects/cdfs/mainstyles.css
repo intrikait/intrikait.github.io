@@ -223,6 +223,10 @@ a:hover {
   cursor: pointer;
 }
 
+.grid figure #one {
+  width: 100%;
+}
+
 .grid figure img {
   position: relative;
   display: block;
