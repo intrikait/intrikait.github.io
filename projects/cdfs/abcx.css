@@ -136,11 +136,17 @@ a:hover {
 
 #abcxcomponent #letterbox p {
     float: left;
-    margin: 3px 0px 0px 3px;
+    padding: 5px;
     font-size: 2em;
     overflow: auto;
 }
 
+#abcxcomponent #letterbox p ul li {
+    float: left;
+    padding: 5px;
+    font-size: 2em;
+    overflow: auto;
+}
 
 #section-two {
     position: fixed;
