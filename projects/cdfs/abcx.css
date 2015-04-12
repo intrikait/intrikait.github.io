@@ -89,8 +89,9 @@ a:hover {
     font-family: Arial Black;
     text-align: center;
     -webkit-text-fill-color: transparent;
-    background: -webkit-linear-gradient(transparent, transparent), center  url(http://i.imgur.com/TVTmu94.png); /*section one title background*/
+    background: -webkit-linear-gradient(transparent, transparent), center  url(images/linedpaper.png); /*section one title background*/
     background: -o-linear-gradient(transparent, transparent);
+    background-repeat: repeat;
     -webkit-background-clip: text;
 }
 
@@ -102,7 +103,8 @@ a:hover {
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     transition: all 1s ease;
-    background: url(http://i.imgur.com/TVTmu94.png); /*hover section one background*/
+    background: url(images/linedpaper.png); /*hover section one background*/
+    background-repeat: repeat;
 }
 
 #hover-one:hover {
@@ -176,8 +178,9 @@ a:hover {
     font-family: Arial Black;
     text-align: center;
     -webkit-text-fill-color: transparent;
-    background: -webkit-linear-gradient(transparent, transparent), center  url(http://i.imgur.com/FAc9K5j.png); /*section two title background*/
+    background: -webkit-linear-gradient(transparent, transparent), center  url(images/wild_flowers.png); /*section two title background*/
     background: -o-linear-gradient(transparent, transparent);
+    background-repeat: repeat;
     -webkit-background-clip: text;
 }
 
@@ -191,7 +194,8 @@ a:hover {
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     transition: all 1s ease;
-    background: url(http://i.imgur.com/FAc9K5j.png); /*hover section two background*/
+    background: url(images/wild_flowers.png); /*hover section two background*/
+    background-repeat: repeat;
 }
 
 #hover-two:hover {
@@ -219,8 +223,9 @@ a:hover {
     font-family: Arial Black;
     text-align: center;
     -webkit-text-fill-color: transparent;
-    background: -webkit-linear-gradient(transparent, transparent), center  url(http://i.imgur.com/2bPKRUx.png); /*section three title background*/
+    background: -webkit-linear-gradient(transparent, transparent), center  url(images/norwegian_rose.png); /*section three title background*/
     background: -o-linear-gradient(transparent, transparent);
+    background-repeat: repeat;
     -webkit-background-clip: text;
 }
 
@@ -234,7 +239,8 @@ a:hover {
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     transition: all 1s ease;
-    background: url(http://i.imgur.com/2bPKRUx.png); /*hover section three background*/
+    background: url(images/norwegian_rose.png); /*hover section three background*/
+    background-repeat: repeat;
 }
 
 #hover-three:hover {
@@ -262,8 +268,9 @@ a:hover {
     font-family: Arial Black;
     text-align: center;
     -webkit-text-fill-color: transparent;
-    background: -webkit-linear-gradient(transparent, transparent), center  url(http://i.imgur.com/BBsqMDR.png); /*section four title background*/
+    background: -webkit-linear-gradient(transparent, transparent), center  url(images/shattered.png); /*section four title background*/
     background: -o-linear-gradient(transparent, transparent);
+    background-repeat: repeat;
     -webkit-background-clip: text;
 }
 
@@ -277,7 +284,8 @@ a:hover {
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     transition: all 1s ease;
-    background: url(http://i.imgur.com/BBsqMDR.png); /*hover section four background*/
+    background: url(images/shattered.png); /*hover section four background*/
+    background-repeat: repeat;
 }
 
 #hover-four:hover {
