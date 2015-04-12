@@ -135,8 +135,14 @@ a:hover {
 }
 
 #abcxcomponent #letterbox p {
-    margin: 10px;
-    padding: 10px;
+    padding: 15px 10px 15px 10px;
+    font-size: 2em;
+    height: 100%;
+    overflow: auto;
+}
+
+#abcxcomponent #letterbox ul li {
+    padding: 15px 10px 15px 10px;
     font-size: 2em;
     height: 100%;
     overflow: auto;
