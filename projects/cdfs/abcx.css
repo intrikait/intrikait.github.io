@@ -89,7 +89,7 @@ a:hover {
     font-family: Arial Black;
     text-align: center;
     -webkit-text-fill-color: transparent;
-    background: -webkit-linear-gradient(transparent, transparent), center  url(images/linedpaper.png); /*section one title background*/
+    background: -webkit-linear-gradient(transparent, transparent), center  url(images/grey_wash_wall.png); /*section one title background*/
     background: -o-linear-gradient(transparent, transparent);
     background-repeat: repeat;
     -webkit-background-clip: text;
@@ -103,7 +103,7 @@ a:hover {
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     transition: all 1s ease;
-    background: url(images/linedpaper.png); /*hover section one background*/
+    background: url(images/grey_wash_wall.png); /*hover section one background*/
     background-repeat: repeat;
 }
 
@@ -127,11 +127,9 @@ a:hover {
     background: #ffffff; /*about section box one color*/
 }
 
-#abcxcomponent #bgletter img {
+#abcxcomponent #bgletter h1 {
     float: left;
-    border-radius: 100%;
-    width: 90px;
-    height: 90px;
+    font-size: 2em;
     margin: 15px 10px 0px 15px;
 }
 
@@ -142,7 +140,7 @@ a:hover {
     margin-top: 5px;
 }
 
-#abcxcomponent #smletter img {
+#abcxcomponent #smletter h1 {
     float: left;
     border-radius: 100%;
     width: 90px;
