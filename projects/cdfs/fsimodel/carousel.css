@@ -64,6 +64,7 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
+  background-color: #333;
   position: absolute;
   top: 0;
   right: 0;
@@ -90,6 +91,7 @@ body {
 
 /* Carousel base class */
 .carousel {
+  margin-top: 50px;
   height: 700px;
   margin-bottom: 60px;
 }
