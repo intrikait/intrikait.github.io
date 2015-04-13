@@ -1,98 +1,180 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+/*
+ * Base structure
+ */
 
+html,
 body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
+  height: 100%;
+  margin-bottom: 50px;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 a:hover {
   text-decoration: none;
 }
 
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
-.header {
-    width: 100%;
-    height: 50px;
-    background: #ffffff; /*header background color*/
-    line-height: 50px;
-    box-shadow: 3px 3px 10px #e5e5e5;
-    text-align: center;
-    z-index: 1;
-    position: fixed;
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
 }
 
-#navigation {
-    text-transform: uppercase;
-    letter-spacing: 1px;
+/* Padding for spacing */
+.inner {
+  padding: 30px;
 }
 
-#navigation a {
-    margin: 30px;
-    padding-bottom: 2px;
-    color: #909090; /*navigation link color*/
-    border-bottom: 1px dotted #ffffff; /*navigation link underline color*/
+.lead {
+  margin-top: 150px;
 }
 
-#navigation a:hover {
-    color: #e1e1e1; /*hover navigation link color*/
-    border-bottom: 1px dotted #e1e1e1; /*hover navigation link underline color*/
-    padding-bottom: 2px;
+/*
+ * Header
+ */
+.masthead-splash {
+  font-size: 47px;
+  margin-top: 10px;
+  vertical-align: middle;
 }
 
-#title {
-    font-size: 36px;
-    color: #000000; /*title color*/
-    letter-spacing: -3px;
-    margin-right: -10px;
-    margin-top: -10px;
-    text-transform: uppercase;
-    font-weight: 900;
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
+.masthead-nav > li {
+  display: inline-block;
 }
-
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
 }
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
 }
-.navbar-wrapper .navbar .container {
-  width: auto;
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
 }
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
 
 @media (min-width: 768px) {
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
+  .masthead-brand {
+    float: left;
   }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
+  .masthead-nav {
+    float: right;
   }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
+}
 
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 100%) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
   }
+  .mastfoot {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
+}
+
+/* Link Effects */
+
+nav a {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  margin: 15px 25px;
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255,255,255,0.3);
+  font-size: 1.35em;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
