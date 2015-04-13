@@ -1,21 +1,38 @@
 /*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
  * Base structure
  */
 
 html,
 body {
   height: 100%;
-  margin-bottom: 50px;
   background-color: #333;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -41,19 +58,10 @@ a:hover {
   padding: 30px;
 }
 
-.lead {
-  margin-top: 150px;
-}
 
 /*
  * Header
  */
-.masthead-splash {
-  font-size: 47px;
-  margin-top: 10px;
-  vertical-align: middle;
-}
-
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -117,9 +125,6 @@ a:hover {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
-  position: absolute;
-  bottom: 0;
-  height: 30px;
 }
 
 
@@ -127,16 +132,15 @@ a:hover {
  * Affix and center
  */
 
-@media (min-width: 100%) {
+@media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
     top: 0;
   }
   .mastfoot {
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    height: 50px;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
@@ -154,27 +158,6 @@ a:hover {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 100%;
+    width: 700px;
   }
-}
-
-/* Link Effects */
-
-nav a {
-  position: relative;
-  display: inline-block;
-  width: 150px;
-  margin: 15px 25px;
-  outline: none;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 400;
-  text-shadow: 0 0 1px rgba(255,255,255,0.3);
-  font-size: 1.35em;
-}
-
-nav a:hover {
-  text-decoration: none;
 }
