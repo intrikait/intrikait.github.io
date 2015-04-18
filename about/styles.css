@@ -189,7 +189,7 @@ nav a:hover {
 
 .grid {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
   margin: 0 auto;
   padding: 1em 0 4em;
   max-width: 1200px;
@@ -202,10 +202,10 @@ nav a:hover {
 .grid figure {
   position: relative;
   overflow: hidden;
-  margin: 10px 1%;
+  margin: -2% 1%;
   min-width: 360px;
   max-width: 400px;
-  height: 300px;
+  height: 330px;
   width: 33%;
   background: #3085a3;
   text-align: center;
@@ -519,7 +519,8 @@ figure.effect-top-right:hover p {
 /*---------------*/
 
 figure.effect-bot-left {
-  background: #6bc6db;
+  background: #333;
+  border: 1px solid #ffffff;
 }
 
 figure.effect-bot-left img {
@@ -695,7 +696,8 @@ figure.effect-bot-mid:hover p i:empty {
 /*---------------*/
 
 figure.effect-bot-right {
-  background: #036981;
+  background: #333;
+  border: 1px solid #ffffff;
 }
 
 figure.effect-bot-right img {
