@@ -272,7 +272,7 @@ figure.effect-top-left figcaption::after {
   left: 30px;
   height: -webkit-calc(50% - 30px);
   height: calc(50% - 30px);
-  border: 1px solid #fff;
+  border: 1px solid #69B779;
   content: '';
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -309,32 +309,32 @@ figure.effect-top-left:hover p {
 }
 
 /*---------------*/
-/***** top-mid *****/
+/***** top-right *****/
 /*---------------*/
 
-figure.effect-top-mid {
-  background: #333;
-  border: 1px solid #ffffff;
+figure.effect-top-right {
+  background: #69B779;
+  border: 1px solid #333;
 }
 
-figure.effect-top-mid img {
+figure.effect-top-right img {
   height: 300px;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
 
-figure.effect-top-mid figcaption {
+figure.effect-top-right figcaption {
   padding: 3em;
 }
 
-figure.effect-top-mid figcaption::before,
-figure.effect-top-mid figcaption::after {
+figure.effect-top-right figcaption::before,
+figure.effect-top-right figcaption::after {
   position: absolute;
   content: '';
   opacity: 0;
 }
 
-figure.effect-top-mid figcaption::before {
+figure.effect-top-right figcaption::before {
   top: 50px;
   right: 30px;
   bottom: 50px;
@@ -347,7 +347,7 @@ figure.effect-top-mid figcaption::before {
   transform-origin: 0 0;
 }
 
-figure.effect-top-mid figcaption::after {
+figure.effect-top-right figcaption::after {
   top: 30px;
   right: 50px;
   bottom: 30px;
@@ -360,13 +360,13 @@ figure.effect-top-mid figcaption::after {
   transform-origin: 100% 0;
 }
 
-figure.effect-top-mid h2 {
+figure.effect-top-right h2 {
   padding-top: 26%;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
 }
 
-figure.effect-top-mid p {
+figure.effect-top-right p {
   padding: 0.5em 2em;
   text-transform: none;
   opacity: 0;
@@ -374,119 +374,46 @@ figure.effect-top-mid p {
   transform: translate3d(0,-10px,0);
 }
 
-figure.effect-top-mid img,
-figure.effect-top-mid h2 {
+figure.effect-top-right img,
+figure.effect-top-right h2 {
   -webkit-transform: translate3d(0,-30px,0);
   transform: translate3d(0,-30px,0);
 }
 
-figure.effect-top-mid img,
-figure.effect-top-mid figcaption::before,
-figure.effect-top-mid figcaption::after,
-figure.effect-top-mid p {
+figure.effect-top-right img,
+figure.effect-top-right figcaption::before,
+figure.effect-top-right figcaption::after,
+figure.effect-top-right p {
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-top-mid:hover img {
+figure.effect-top-right:hover img {
   opacity: 0.7;
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
 
-figure.effect-top-mid:hover figcaption::before,
-figure.effect-top-mid:hover figcaption::after {
+figure.effect-top-right:hover figcaption::before,
+figure.effect-top-right:hover figcaption::after {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
 
-figure.effect-top-mid:hover h2,
-figure.effect-top-mid:hover p {
-  opacity: 1;
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-figure.effect-top-mid:hover figcaption::after,
-figure.effect-top-mid:hover h2,
-figure.effect-top-mid:hover p,
-figure.effect-top-mid:hover img {
-  -webkit-transition-delay: 0.15s;
-  transition-delay: 0.15s;
-}
-
-/*---------------*/
-/***** top-right *****/
-/*---------------*/
-
-figure.effect-top-right {
-  background: #0497ba;
-}
-
-figure.effect-top-right img {
-  height: 300px;
-  -webkit-transition: opacity 0.35s;
-  transition: opacity 0.35s;
-}
-
-figure.effect-top-right figcaption {
-  text-align: right;
-}
-
-figure.effect-top-right h2,
-figure.effect-top-right p {
-  position: absolute;
-  right: 30px;
-  left: 30px;
-  padding: 10px 0;
-}
-
-
-figure.effect-top-right p {
-  bottom: 30px;
-  line-height: 1.5;
-  -webkit-transform: translate3d(0,100%,0);
-  transform: translate3d(0,100%,0);
-}
-
-figure.effect-top-right h2 {
-  top: 30px;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0,20px,0);
-  transform: translate3d(0,20px,0);
-}
-
-figure.effect-top-right:hover h2 {
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-figure.effect-top-right h2::after {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background: #fff;
-  content: '';
-  -webkit-transform: translate3d(0,40px,0);
-  transform: translate3d(0,40px,0);
-}
-
-figure.effect-top-right h2::after,
-figure.effect-top-right p {
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-}
-
-figure.effect-top-right:hover h2::after,
+figure.effect-top-right:hover h2,
 figure.effect-top-right:hover p {
   opacity: 1;
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+}
+
+figure.effect-top-right:hover figcaption::after,
+figure.effect-top-right:hover h2,
+figure.effect-top-right:hover p,
+figure.effect-top-right:hover img {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
 }
 
 /*---------------*/
@@ -494,8 +421,8 @@ figure.effect-top-right:hover p {
 /*---------------*/
 
 figure.effect-bot-left {
-  background: #333;
-  border: 1px solid #ffffff;
+  background: #69B779;
+  border: 1px solid #333;
 }
 
 figure.effect-bot-left img {
@@ -560,119 +487,13 @@ figure.effect-bot-left:hover p {
   transition-duration: 0.35s;
 }
 
-/*-----------------*/
-/***** bot-mid *****/
-/*-----------------*/
-
-figure.effect-bot-mid {
-  background: #1fa3c2;
-}
-
-figure.effect-bot-mid img {
-  height: 300px;
-}
-
-figure.effect-bot-mid h2 {
-  font-size: 158.75%;
-}
-
-figure.effect-bot-mid h2,
-figure.effect-bot-mid p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-50%,-50%,0);
-  transform: translate3d(-50%,-50%,0);
-  -webkit-transform-origin: 50%;
-  transform-origin: 50%;
-}
-
-figure.effect-bot-mid figcaption::before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 200px;
-  height: 200px;
-  border: 2px solid #fff;
-  content: '';
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
-  transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
-  -webkit-transform-origin: 50%;
-  transform-origin: 50%;
-}
-
-figure.effect-bot-mid p {
-  width: 100px;
-  text-transform: none;
-  font-size: 121%;
-  line-height: 2;
-}
-
-figure.effect-bot-mid p a {
-  color: #fff;
-}
-
-figure.effect-bot-mid p a:hover,
-figure.effect-bot-mid p a:focus {
-  opacity: 0.6;
-}
-
-figure.effect-bot-mid p a i {
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-}
-
-figure.effect-bot-mid p a:first-child i {
-  -webkit-transform: translate3d(-60px,-60px,0);
-  transform: translate3d(-60px,-60px,0);
-}
-
-figure.effect-bot-mid p a:nth-child(2) i {
-  -webkit-transform: translate3d(60px,-60px,0);
-  transform: translate3d(60px,-60px,0);
-}
-
-figure.effect-bot-mid p a:nth-child(3) i {
-  -webkit-transform: translate3d(-60px,60px,0);
-  transform: translate3d(-60px,60px,0);
-}
-
-figure.effect-bot-mid p a:nth-child(4) i {
-  -webkit-transform: translate3d(60px,60px,0);
-  transform: translate3d(60px,60px,0);
-}
-
-figure.effect-bot-mid:hover figcaption::before {
-  opacity: 1;
-  -webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
-  transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
-}
-
-figure.effect-bot-mid:hover h2 {
-  opacity: 0;
-  -webkit-transform: translate3d(-50%,-50%,0) scale3d(0.8,0.8,1);
-  transform: translate3d(-50%,-50%,0) scale3d(0.8,0.8,1);
-}
-
-figure.effect-bot-mid:hover p i:empty {
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0); /* just because it's stronger than nth-child */
-  opacity: 1;
-}
-
 /*---------------*/
 /***** bot-right *****/
 /*---------------*/
 
 figure.effect-bot-right {
-  background: #333;
-  border: 1px solid #ffffff;
+  background: #fff;
+  border: 1px solid #69B779;
 }
 
 figure.effect-bot-right img {
