@@ -41,8 +41,8 @@ nav {
 .grid {
   position: relative;
   display: inline-flex;
-  margin: 0 auto;
-  padding: 1em 0 4em;
+  margin-left: 25%;
+  margin-right: 25%;
   max-width: 1200px;
   width: 100%;
   list-style: none;
