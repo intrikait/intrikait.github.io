@@ -50,9 +50,9 @@ nav {
 .grid figure {
   position: relative;
   overflow: hidden;
-  margin: -2% 1%;
   min-width: 300px;
   max-width: 300px;
+  padding: 10px;
   height: 300px;
   width: 50%;
   background: #fff;
