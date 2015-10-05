@@ -39,12 +39,11 @@ nav {
 }
 
 .grid {
-  position: relative;
+  position: absolute;
   display: inline-flex;
   margin: 0 auto;
   padding: 1em 0 4em;
   max-width: 1200px;
-  width: 100%;
   list-style: none;
   text-align: center;
 }
