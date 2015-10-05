@@ -34,8 +34,8 @@ body {
   text-align: center;
 }
 
-nav li a {
-  color: #69B779;
+nav {
+  background-color: #69B779;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -161,6 +161,6 @@ nav li a {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 75%;
   }
 }
