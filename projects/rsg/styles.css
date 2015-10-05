@@ -314,7 +314,8 @@ figure.effect-top-left:hover p {
 
 figure.effect-top-right {
   background: #69B779;
-  border: 1px solid #333;
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 figure.effect-top-right img {
@@ -422,7 +423,8 @@ figure.effect-top-right:hover img {
 
 figure.effect-bot-left {
   background: #69B779;
-  border: 1px solid #333;
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 figure.effect-bot-left img {
