@@ -34,6 +34,10 @@ body {
   text-align: center;
 }
 
+nav li a {
+  color: #69B779;
+}
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
