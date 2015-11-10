@@ -44,16 +44,23 @@ nav {
   width: 100%;
   list-style: none;
   text-align: center;
+}
+
+/* Common style */
+.grid figure {
+  position: relative;
   overflow: hidden;
   min-width: 300px;
   max-width: 300px;
   padding: 10px;
   height: 300px;
+  width: 50%;
   background: #fff;
+  text-align: center;
+  cursor: pointer;
 }
 
-/* Common style */
-.grid h1 {
+.grid figure img {
   position: relative;
   display: block;
   min-height: 100%;
@@ -61,7 +68,7 @@ nav {
   opacity: 0.8;
 }
 
-.grid p {
+.grid figure figcaption {
   padding: 2em;
   color: #000;
   text-transform: uppercase;
@@ -70,14 +77,47 @@ nav {
   backface-visibility: hidden;
 }
 
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.grid p > a {
+.grid figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
   font-size: 0;
   opacity: 0;
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -210,12 +250,22 @@ nav {
 /***** Top Left *****/
 /*---------------*/
 
-.effect-top-left {
+figure.effect-top-left {
   background: #fff;
   border: 1px solid #69B779;
 }
 
-.effect-top-left p::after {
+figure.effect-top-left img {
+  height: 300px;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+figure.effect-top-left:hover img {
+  opacity: 0.4;
+}
+
+figure.effect-top-left figcaption::after {
   position: absolute;
   right: 30px;
   bottom: 30px;
@@ -230,12 +280,17 @@ nav {
   transform: translate3d(0,-100%,0);
 }
 
-.effect-top-left:hover p::after {
+figure.effect-top-left:hover figcaption::after {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
 
-.effect-top-left p {
+figure.effect-top-left figcaption {
+  padding: 3em;
+  text-align: left;
+}
+
+figure.effect-top-left p {
   position: absolute;
   right: 60px;
   bottom: 60px;
@@ -247,7 +302,7 @@ nav {
   transform: translate3d(0,-100px,0);
 }
 
-p.effect-top-left:hover p {
+figure.effect-top-left:hover p {
   opacity: 1;
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
