@@ -57,7 +57,6 @@ nav {
   width: 50%;
   background: #fff;
   text-align: center;
-  cursor: pointer;
 }
 
 .row .col-md-6 img {
@@ -68,13 +67,22 @@ nav {
   opacity: 0.8;
 }
 
-.row .col-md-6::before,
-.row .col-md-6::after {
+.row .col-md-6 p {
+  padding: 2em;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.row .col-md-6 p::before,
+.row .col-md-6 p::after {
   pointer-events: none;
 }
 
-.row .col-md-6 ,
-.row .col-md-6  > a {
+.row .col-md-6 p,
+.row .col-md-6 p > a {
   top: 0;
   left: 0;
   width: 100%;
@@ -83,7 +91,7 @@ nav {
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.row .col-md-6  > a {
+.row .col-md-6 p > a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
