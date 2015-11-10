@@ -44,11 +44,14 @@
 
           <div class="inner cover">
             <div class="grid">
-              <figure class="effect-top-left"> <!-- sign in -->
-                <figcaption>
+              <div class="effect-top-left"> <!-- sign in -->
                   <h2>Sign<span>in.</span></h2>
-                </figcaption>
-              </figure>
+                  <p>
+                    <input ng-model="username" placeholder="Username" type="text" />        
+                    <input ng-model="password" placeholder="Password" type="password" />
+                    <button ng-click="signIn()">Log In</button>
+                  </p>
+              </div>
               <figure class="effect-top-right"> <!-- about -->
                 <figcaption>
                   <h2><span>About.</span></h2>
