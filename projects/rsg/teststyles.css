@@ -47,7 +47,7 @@ nav {
 }
 
 /* Common style */
-.row.col-md-6 {
+.row .col-md-6 {
   position: relative;
   overflow: hidden;
   min-width: 300px;
@@ -68,7 +68,7 @@ nav {
   opacity: 0.8;
 }
 
-.row .col-md-6  {
+.row .col-md-6 {
   padding: 2em;
   color: #000;
   text-transform: uppercase;
